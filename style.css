@@ -94,6 +94,29 @@ body, html {
     float: right;
 }
 
+.pinkfish{
+    height: 50px;
+    width: 50px;
+    border-radius: 70%;
+    margin-left: 3000 px;
+    animation-name: pink4;
+    position:relative;
+    animation-duration: 10s;
+}
+@keyframes pink4 {
+    from {
+        transform: translateX(10000) translateY(60px);
+      }
+      30%
+      {
+        transform: translateX(10000) translateY(-50px);
+      }
+
+      to {
+        transform: translateX(300px) translateY(-400px);
+      }
+}
+
 @keyframes nemo3 {
     from {
         transform: translateX(-600) translateY(-50px);
@@ -163,16 +186,15 @@ body, html {
     from {
         transform: translateX(90) translateY(50px);
       }
-    
       20% {
         transform: translateX(60px) translateY(200px);
       }
-      50% {
+      /* 50% {
         transform: translateX(-20px) translateY(-10px);
       }
       55% {
         transform: translateX(150px) translateY(10px);
-      }
+      } */
 }
 
 
@@ -190,20 +212,20 @@ body, html {
         transform: translateX(10px) translateY(150px);
       }
 
-      70% {
-        transform: translateX(500px) translateY(150px);
+      69% {
+        transform: translateX(-400px) translateY(150px);
       }
-      75% {
-        transform: translateX(700px) translateY(350px);
+      /* 75% {
+        transform: translateX(70px) translateY(350px);
       }
-    
+     */
       to {
         transform: translateX(30px) translateY(350px);
       }
 
-      to {
+      /* to {
         transform: translateX(30px) translateY(700px);
-      }
+      } */
   }
       
 
@@ -224,8 +246,18 @@ body, html {
   
     
      
-      to {
-        transform: translateX(30px) translateY(700px);
+      20% {
+        transform: translateX(30px) translateY(250px);
+      }
+      40% {
+        transform:  translateY(-80px);
+      }
+      55% {
+        transform: translateX(30px) translateY(250px);
+      }
+      to{
+        transform:  translate(-80px);
+
       }
   }
       
